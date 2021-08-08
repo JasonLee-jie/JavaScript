@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        var name = "Jasonlee";
+        var score = "71";
+        
+        if(score > 70 && score < 80){
+            alert("OK");
+        }
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+</body>
+</html>
