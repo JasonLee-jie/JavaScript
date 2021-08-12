@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+</head>
+<body>
+
+<a href="" id = "test-jquery">点我</a>
+<script>
+    $('#test-jquery').click(function () {
+        alert('hello JQuery')
+
+    })
+</script>
+
+
+
+
+</body>
+</html>
