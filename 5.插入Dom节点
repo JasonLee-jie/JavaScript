@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p id = "js">JavaScript</p>
+<div id = "list">
+    <p id = "se">JavaSE</p>
+    <p id = "ee">JavaEE</p>
+    <p id = "me">JavaME</p>
+</div>
+
+<script>
+    var js = document.getElementById('js')
+    var list = document.getElementById('list')
+
+    //通过js创建一个新的节点
+    var newp = document.createElement('p')//创建一个P标签
+    newp.id = 'newp'
+    newp.innerText = 'hello,Jasonlee'
+
+    
+
+</script>
+
+
+</body>
+</html>
